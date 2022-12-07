@@ -16,32 +16,43 @@
   background-size: 100%;
 }
 #hour{
-    position:absolute;
-    top: 24.25%;
-    left:48%;
-    height: 95px;
-    width: 12px;
-    /* display: none; */
-    opacity: 70%;
-    z-index: 2;
+  position: absolute;
+  top: 23%;
+  left: 48.2%;
+  height: 28%;
+  width: 3%;
+  /* display: none; */
+  /* opacity: 70%; */
+  z-index: 2;
 }
-#minute{
-    position: absolute;
-    top: 14.5%;
-    left: 48.2%;
-    height: 128px;
-    width: 10px;
-    /* display: none; */
-    opacity: 70%;
-    z-index: 1;
+
+#minute{ 
+     position: absolute;
+  top: 14.5%;
+  left: 48.5%;
+  height: 37%;
+  width: 2.5%;
+  /* display: none; */
+  /* opacity: 70%; */
+  z-index: 1;
 }
 #second{
-    background: red;
-    position: absolute;
-    top: 10.5%;
-    left: 48.55%;
-    height: 140px;
-    width: 7px;
-    opacity: 70%;
+  background: red;
+  position: absolute;
+  top: 10.5%;
+  left: 49%;
+  height: 41%;
+  width: 1.5%;
+  /* opacity: 70%; */
   z-index: 0;
+}
+.circle{
+  top: 46.5%;
+  left: 45.8%;
+  position: absolute;
+  background: black;
+  height: 8%;
+  width: 8%;
+  border-radius: 50%;
+  z-index: 4;
 }
